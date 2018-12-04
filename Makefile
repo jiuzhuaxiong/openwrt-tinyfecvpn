@@ -14,6 +14,9 @@ PKG_LICENSE_FILES:=LICENSE.md
 
 PKG_BUILD_PARALLEL:=1
 
+TARGET_CXXFLAGS += -ffunction-sections -fdata-sections -flto
+TARGET_LDFLAGS += -Wl,--gc-sections -flto
+
 include $(INCLUDE_DIR)/package.mk
 
 define Package/tinyfecvpn

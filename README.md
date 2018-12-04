@@ -6,4 +6,4 @@ Yes he releases [pre-compiled binaries](https://github.com/wangyu-/tinyfecVPN/re
 
 Size comparison
 ---
-MIPS 24Kc, 5.11MiB (statically-linked) vs 199KiB (dynamically-linked)
+MIPS 24Kc, 5.11MiB (statically-linked) vs 169KiB (dynamically-linked)
